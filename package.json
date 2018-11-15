@@ -1,0 +1,30 @@
+{
+  "name": "laboratorio3",
+  "version": "1.0.0",
+  "description": "Laboratorio 3: Creacion de apis",
+  "main": "serie1.js",
+  "scripts": {
+    "start": "node Serie2y3/app.js",
+    "dev": "nodemon Serie2y3/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpovalle/EstructurasII_Lab3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpovalle/EstructurasII_Lab3/issues"
+  },
+  "homepage": "https://github.com/lpovalle/EstructurasII_Lab3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.12",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
